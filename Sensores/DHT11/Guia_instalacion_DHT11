@@ -1,0 +1,17 @@
+sudo apt-get update
+sudo apt-get install git-core
+mkdir librerias
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+sudo apt-get install build-essential python-dev
+cd Adafruit_Python_DHT
+sudo python setup.py install
+en caso de error
+  sudo apt-get install python-setuptools
+
+
+
+
+  Bibliografia:
+
+  https://stackoverflow.com/questions/14426491/python-3-importerror-no-module-named-setuptools
+  https://www.internetdelascosas.cl/2017/05/19/raspberry-pi-conectando-un-sensor-de-temperatura-y-humedad-dht11/
